@@ -1,5 +1,5 @@
 build:
-	go build -o bin/rfd
+	go build cmd/web/main.go -o bin/rfd
 
 run:
 	./bin/rfd
